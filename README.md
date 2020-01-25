@@ -1,1 +1,5 @@
 # SimpleMinMaxSlider
+
+![](Demonstration.gif)
+
+# Usage
