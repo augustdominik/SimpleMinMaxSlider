@@ -1,0 +1,10 @@
+{
+    "name": "com.guciodevs.simple-min-max-slider",
+    "displayName": "Simple MinMax Slider",
+    "description": "Handy small package that adds a simple MinMaxSlider attribute.",
+    "version": "1.0.0",
+    "unity": "2018.3",
+    "license": "MIT",
+    "dependencies": {
+     }
+}
