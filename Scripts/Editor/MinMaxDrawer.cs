@@ -1,13 +1,12 @@
 ﻿using UnityEngine;
-using System.Collections;
 using UnityEditor;
 
-[CustomPropertyDrawer(typeof(MinMaxAttribute))]
+[CustomPropertyDrawer(typeof(MinMaxSliderAttribute))]
 public class MinMaxDrawer : PropertyDrawer {
 
     public override void OnGUI(Rect position, SerializedProperty property, GUIContent label){
 
-        var minMaxAttribute = (MinMaxAttribute)attribute;
+        var minMaxAttribute = (MinMaxSliderAttribute)attribute;
         var propertyType = property.propertyType;
 
         label.tooltip = minMaxAttribute.min.ToString("F2") + " to " + minMaxAttribute.max.ToString("F2");
