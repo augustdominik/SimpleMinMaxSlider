@@ -151,8 +151,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   info: Hover over slider to see tooltip
-  floatTest: {x: 4.5793805, y: 8.069381}
-  intTest: {x: 1, y: 7}
+  floatTest: {x: 2, y: 8}
+  intTest: {x: 0, y: 0}
 --- !u!4 &869075710
 Transform:
   m_ObjectHideFlags: 0
