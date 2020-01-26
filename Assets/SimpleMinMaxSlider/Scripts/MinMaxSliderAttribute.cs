@@ -1,4 +1,4 @@
-﻿namespace MinMaxSlider
+﻿namespace GD.MinMaxSlider
 {
     using UnityEngine;
 
