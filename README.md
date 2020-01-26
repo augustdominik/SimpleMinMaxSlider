@@ -1,4 +1,4 @@
-# SimpleMinMaxSlider
+# SimpleMinMaxSlider for Unity
 
 ![](Demonstration.gif)
 
