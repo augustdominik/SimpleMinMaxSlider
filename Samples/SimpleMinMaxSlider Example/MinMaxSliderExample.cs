@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
-using MinMaxSlider;
+using GD.MinMaxSlider;
 
 public class MinMaxSliderExample : MonoBehaviour {
 
