@@ -11,8 +11,10 @@ public class MinMaxSliderDrawer : PropertyDrawer {
 
         label.tooltip = minMaxAttribute.min.ToString("F2") + " to " + minMaxAttribute.max.ToString("F2");
 
-        Rect ctrlRect = EditorGUI.PrefixLabel(position, label);
-        Rect[] splittedRect = SplitRect(ctrlRect,3);
+        //PrefixLabel returns the rect of the right part of the control. It leaves out the label section. We don't have to worry about it. Nice!
+        Rect controlRect = EditorGUI.PrefixLabel(position, label);
+        
+        Rect[] splittedRect = SplitRect(controlRect,3);
 
         if(propertyType == SerializedPropertyType.Vector2){ 
 
@@ -22,6 +24,7 @@ public class MinMaxSliderDrawer : PropertyDrawer {
             float minVal = vector.x;
             float maxVal = vector.y;
 
+            //F2 limits the float to two decimal places (0.00).
             minVal = EditorGUI.FloatField(splittedRect[0], float.Parse(minVal.ToString("F2")));
             maxVal = EditorGUI.FloatField(splittedRect[2], float.Parse(maxVal.ToString("F2")));
 
