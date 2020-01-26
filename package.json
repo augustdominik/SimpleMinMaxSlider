@@ -6,5 +6,18 @@
     "unity": "2018.3",
     "license": "MIT",
     "dependencies": {
-     }
+     },
+
+    "samples": [
+
+    {
+    
+        "displayName": "Example Scene",
+    
+        "description": "",
+    
+        "path": "Samples~/SimpleMinMaxSlider Example"
+    
+    }   
+    ]
 }

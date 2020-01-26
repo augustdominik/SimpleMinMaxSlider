@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
  
-public class MinMaxSliderDemo : MonoBehaviour {
+public class MinMaxSliderExample : MonoBehaviour {
 
     public string info = "Hover over slider to see tooltip";
 
