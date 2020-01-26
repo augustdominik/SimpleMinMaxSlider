@@ -3,7 +3,7 @@
 ![](Demonstration.gif)
 
 # Installation
-Using Package Manager:
+
   1. Open package manager
   2. Add package from git URL
   3. Paste: https://github.com/GucioDevs/SimpleMinMaxSlider.git#upm (remember the #upm at the end)
