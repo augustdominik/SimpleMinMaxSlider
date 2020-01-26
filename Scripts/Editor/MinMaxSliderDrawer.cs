@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using UnityEditor;
+using MinMaxSlider;
 
 [CustomPropertyDrawer(typeof(MinMaxSliderAttribute))]
 public class MinMaxSliderDrawer : PropertyDrawer {
