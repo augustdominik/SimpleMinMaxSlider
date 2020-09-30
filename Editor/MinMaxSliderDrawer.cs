@@ -60,11 +60,11 @@ public class MinMaxSliderDrawer : PropertyDrawer {
             EditorGUI.MinMaxSlider(splittedRect[1], ref minVal, ref maxVal,
             minMaxAttribute.min,minMaxAttribute.max);
 
-            if(minVal < minMaxAttribute.min){
-                maxVal = minMaxAttribute.min;
+             if(minVal < minMaxAttribute.min){
+                minVal = minMaxAttribute.min;
             }
 
-            if(minVal > minMaxAttribute.max){
+            if(maxVal > minMaxAttribute.max){
                 maxVal = minMaxAttribute.max;
             }
 
