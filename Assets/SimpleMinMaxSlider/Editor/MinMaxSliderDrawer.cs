@@ -61,10 +61,10 @@ public class MinMaxSliderDrawer : PropertyDrawer {
             minMaxAttribute.min,minMaxAttribute.max);
 
             if(minVal < minMaxAttribute.min){
-                maxVal = minMaxAttribute.min;
+                minVal = minMaxAttribute.min;
             }
 
-            if(minVal > minMaxAttribute.max){
+            if(maxVal > minMaxAttribute.max){
                 maxVal = minMaxAttribute.max;
             }
 
